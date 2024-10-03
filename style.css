@@ -1,0 +1,281 @@
+*
+{
+margin: 0px;
+padding: 0px;
+
+box-sizing: border-box;
+font-family: Montserrat, serif, sans-serif 
+}
+
+html
+{
+ background-color:darkslateblue;
+ scroll-behavior: smooth;
+}
+
+.container
+{
+ width: 1250px;
+ min-height: 1000px;
+
+ margin: auto;
+ margin-top: 110px;
+ margin-bottom: 60px;
+}
+
+nav
+{
+width: 100%;
+height: 100px;
+
+margin: auto;
+
+background-color: rgb(50, 50, 100);
+background-image: url(resimler/czn\ burak.png);
+background-position: center;
+background-position-y: 10px;
+background-size: 100px;
+background-repeat: no-repeat;
+box-shadow: 3px 3px 7px black;
+position: fixed;
+top: 0px
+}
+
+nav h1
+{
+float: left;
+position: absolute;
+top: 30px;
+left: 20px;
+
+font-weight: 900;
+font-size: 30px;
+}
+
+nav span
+{
+ color: white;
+ text-align: center;
+ font-style: italic;
+ text-shadow: 3px 3px 2px darkblue;
+
+ position: absolute;
+ top: 67px;
+ left: 20px
+}
+
+.linkler
+{
+position: absolute;
+top: 40px;
+right: 20px;
+
+text-align: center;
+}
+
+.linkler ul
+{
+list-style-type: none;
+}
+
+.linkler ul li
+{
+ float: right;
+}
+
+.linkler ul li a
+{
+ text-decoration: none;
+ background-color:rgb(50, 36, 139);
+ color:black;
+ border:solid 1px black;
+
+ padding: 5px;
+ margin: 10px
+}
+
+.linkler ul li a:hover
+{
+ background-color:white
+}
+
+.kartlar
+{ 
+ display: flex;
+ flex-direction: row;
+}
+
+.kartlar > div
+{
+ width: 395px;
+ height: 400px;
+ margin: 10px;
+ margin-top: 10px;
+ margin-bottom: 25px;
+   
+ background-color:rgb(50, 36, 139);
+ border-radius: 7px;
+ box-shadow: 3px 3px 7px black;
+}
+
+.basliklar
+{
+ color: black;
+ font-weight: bold;
+ font-size: 40px;
+ margin: 10px 15px 0px 15px;
+}
+
+.kartlar > div img
+{
+ border-radius: 7px 7px 0px 0px;
+ width: 395px;
+ height: 200px;
+}
+
+.kartlar > div h2
+{
+ margin: 15px 5px 15px 7px
+}
+
+.encoksatanetiket1-1
+{
+ background-color: red;
+ border-radius: 10px;
+ padding: 2px;
+ font-size: 12px;
+ font-weight: bold;
+ margin-top: 22px;
+ margin-right: 7px;
+
+ float:right
+}
+
+.encoksatanetiket2-1
+{
+ background-color: rgb(255, 65, 65);
+ border-radius: 10px;
+ padding: 2px;
+ font-size: 12px;
+ font-weight: bold;
+ margin-top: 22px;
+ margin-right: 7px;
+
+ float:right
+}
+
+.encoksatanetiket3-1
+{
+ background-color: rgb(255, 140, 140);
+ border-radius: 10px;
+ padding: 2px;
+ font-size: 12px;
+ font-weight: bold;
+ margin-top: 22px;
+ margin-right: 7px;
+
+ float:right
+}
+
+.encoksatanetiket1-2
+{
+ background-color: green;
+ border-radius: 10px;
+ padding: 2px;
+ font-size: 12px;
+ font-weight: bold;
+ margin-top: 22px;
+ margin-right: 7px;
+
+ float:right
+}
+
+.encoksatanetiket2-2
+{
+ background-color: rgb(65, 255, 65);
+ border-radius: 10px;
+ padding: 2px;
+ font-size: 12px;
+ font-weight: bold;
+ margin-top: 22px;
+ margin-right: 7px;
+
+ float:right
+}
+
+.encoksatanetiket3-2
+{
+ background-color: rgb(140, 255, 140);
+ border-radius: 10px;
+ padding: 2px;
+ font-size: 12px;
+ font-weight: bold;
+ margin-top: 22px;
+ margin-right: 7px;
+
+ float:right
+}
+
+.kartlar > div .siparis
+{
+ margin: 15px 0px 0px 7px
+}
+
+.kartlar > div input[type=number]:hover
+{
+ background-color:rgb(32, 32, 120);
+ color:white
+}
+
+.siparisverbutonlari
+{
+ font-weight: 900;
+ color:rgb(20, 20, 65);
+ float: right;
+}
+
+.siparisverbutonlari:hover
+{
+ background-color: rgb(32, 32, 120);
+ color: white;
+}
+
+.iptalbutonlari
+{
+ font-weight: 900;
+ color: red;
+ margin: 0px 7px 0px 5px;
+ float: right;
+}
+
+.iptalbutonlari:hover
+{
+ background-color: red;
+ color: white;
+}
+
+footer
+{
+ width: 100%;
+ height: 50px;
+ background-color: rgb(50, 50, 100);
+
+ position: fixed;
+ bottom: 0px;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.sosyalmedyaikon img
+{
+ padding: 7px;
+ border-radius: 50%
+}
+
+.sosyalmedyaikon img:hover
+{
+ background-color: darkslateblue;
+ width: 42px;
+}
